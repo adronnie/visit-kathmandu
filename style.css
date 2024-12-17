@@ -1,0 +1,139 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff4e6; 
+    color: #333; 
+}
+
+header {
+    background-color: #f28c38; 
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 2px solid #f28c38; 
+}
+
+section h2 {
+    color: #f28c38;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+p, ul {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+
+article {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+article h3 {
+    color: #f28c38;
+    font-size: 1.5em;
+}
+
+article img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    margin: 15px auto; 
+    border: 5px solid #f28c38; 
+    border-radius: 12px; 
+    display: block; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+article img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); 
+}
+
+
+#gallery img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+    margin: 15px; 
+    border: 5px solid #f28c38; 
+    border-radius: 12px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+
+#gallery {
+    background-color: #fde8d0; 
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #f28c38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
